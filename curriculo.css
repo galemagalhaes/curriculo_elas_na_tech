@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.dadosPessoais {
+  background-color: rgb(242, 219, 250);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.dadosPessoais ul {
+  padding: 0;
+}
+.dadosPessoais li {
+  font-size: small;
+  line-height: 1.5rem;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.objetivo {
+  margin: 1rem 0 1rem;
+  border: 1px solid rgb(43, 1, 56);
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+}
+
+.blocos {
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  margin-top: 3rem;
+}
+.blocos h3 {
+  background-color: rgb(242, 219, 250);
+  border-bottom: 1px solid #2b0138;
+  padding: 0.5rem;
+}
+.blocos p {
+  margin: 0;
+  line-height: 1.5rem;
+}
+li{
+  list-style-image: url(./assets/lotus.png);
+  
+}
